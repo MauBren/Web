@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suspiro Estival</title>
+    <style>
+        /* Estilos CSS para el contenedor principal */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #fde3d7; /* Color de fondo rosa */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        /* Estilos CSS para el cuadro del mensaje */
+        #cuadro-mensaje {
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 60%;
+            font-family: 'Arial', sans-serif; /* Estilo de letra */
+            position: relative;
+            z-index: 1;
+        }
+        /* Estilos CSS para el título */
+        h1 {
+            color: #ff6f61; /* Color del título */
+            margin-bottom: 10px; /* Espacio debajo del título */
+            font-family: 'Arial Black', sans-serif; /* Estilo de letra para el título */
+            font-size: 24px; /* Tamaño de la letra del título */
+        }
+        /* Estilos CSS para el contenido del mensaje */
+        p {
+            font-family: 'Comic Sans MS', cursive; /* Estilo de letra para el contenido */
+            font-size: 16px; /* Tamaño de la letra del contenido */
+            line-height: 1.5; /* Altura de línea */
+        }
+        /* Estilos CSS para la imagen esparcida */
+        .imagen-esparcida {
+            position: absolute;
+            width: 50px; /* Tamaño de la imagen */
+            height: 50px;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cuadro del mensaje -->
+    <div id="cuadro-mensaje">
+        <!-- Título -->
+        <h1>Suspiro Estival</h1>
+        <!-- Mensaje -->
+        <p>Para: Pispila<br>
+        De: Mau<br><br>
+        Bajo el ardiente sol del verano, una danza comenzó en el escenario del mundo,<br>
+        Pero un paso en falso desvió su curso, llevándola hacia destinos desconocidos.<br>
+        Aunque el tropiezo las separó, cada figura encontró su propio ritmo y balance,<br>
+        Esperando el momento en que la coreografía las reúna de nuevo en perfecta armonía.<br>
+        Una estrella desea que la otra continúe su propio baile,<br>
+        Explorando nuevos movimientos y encontrando su propia cadencia de felicidad.<br>
+        Aunque se separen, el ritmo perdura sin desvanecerse,<br>
+        Siempre será parte del ballet de sueños y aspiraciones, en cada nueva escena.<br>
+        Que la melodía de este verano resuene en el corazón de cada uno,<br>
+        Y que el suspiro estival traiga consigo la promesa de nuevos amaneceres y sueños cumplidos.</p>
+    </div>
+    <!-- Imágenes esparcidas por todo el fondo -->
+    <!-- Primera fila -->
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 5%; left: 10%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 5%; left: 25%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 5%; left: 40%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 5%; left: 55%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 5%; left: 70%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 5%; left: 85%;">
+    <!-- Segunda fila -->
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 20%; left: 10%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 20%; left: 25%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 20%; left: 40%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 20%; left: 55%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 20%; left: 70%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 20%; left: 85%;">
+    <!-- Tercera fila -->
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 35%; left: 10%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 35%; left: 25%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 35%; left: 40%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 35%; left: 55%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 35%; left: 70%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 35%; left: 85%;">
+    <!-- Cuarta fila -->
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 50%; left: 10%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 50%; left: 25%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 50%; left: 40%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 50%; left: 55%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 50%; left: 70%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 50%; left: 85%;">
+    <!-- Quinta fila -->
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 65%; left: 10%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 65%; left: 25%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 65%; left: 40%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 65%; left: 55%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 65%; left: 70%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 65%; left: 85%;">
+    <!-- Sexta fila -->
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 80%; left: 10%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 80%; left: 25%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 80%; left: 40%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 80%; left: 55%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 80%; left: 70%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 80%; left: 85%;">
+    <!-- Séptima fila -->
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 95%; left: 10%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 95%; left: 25%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 95%; left: 40%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 95%; left: 55%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 95%; left: 70%;">
+    <img src="https://i.pinimg.com/originals/e4/a1/c8/e4a1c8b812361659f0fe03bc64943c31.gif" alt="Imagen" class="imagen-esparcida" style="top: 95%; left: 85%;">
+</body>
+</html>
